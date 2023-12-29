@@ -1,10 +1,10 @@
-package com.example.batchprocessingcsvtodatabase.config;
+package com.shailendrakawadkar.csvtodb.config;
 
-import com.example.batchprocessingcsvtodatabase.listener.UserJobExecutionNotificationListener;
-import com.example.batchprocessingcsvtodatabase.listener.UserStepCompleteNotificationListener;
-import com.example.batchprocessingcsvtodatabase.model.User;
-import com.example.batchprocessingcsvtodatabase.model.UserInput;
-import com.example.batchprocessingcsvtodatabase.repository.UserRepository;
+import com.shailendrakawadkar.csvtodb.listener.UserJobExecutionNotificationListener;
+import com.shailendrakawadkar.csvtodb.listener.UserStepCompleteNotificationListener;
+import com.shailendrakawadkar.csvtodb.model.User;
+import com.shailendrakawadkar.csvtodb.model.UserInput;
+import com.shailendrakawadkar.csvtodb.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

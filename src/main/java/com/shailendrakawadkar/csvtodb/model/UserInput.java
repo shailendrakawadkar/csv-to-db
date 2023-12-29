@@ -1,4 +1,4 @@
-package com.example.batchprocessingcsvtodatabase.model;
+package com.shailendrakawadkar.csvtodb.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

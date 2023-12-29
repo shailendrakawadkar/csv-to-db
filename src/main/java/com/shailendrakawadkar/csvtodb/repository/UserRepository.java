@@ -1,6 +1,6 @@
-package com.example.batchprocessingcsvtodatabase.repository;
+package com.shailendrakawadkar.csvtodb.repository;
 
-import com.example.batchprocessingcsvtodatabase.model.User;
+import com.shailendrakawadkar.csvtodb.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,String> {

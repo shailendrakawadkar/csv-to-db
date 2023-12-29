@@ -1,4 +1,4 @@
-package com.example.batchprocessingcsvtodatabase.controller;
+package com.shailendrakawadkar.csvtodb.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -12,6 +12,7 @@ import org.springframework.batch.core.repository.JobInstanceAlreadyCompleteExcep
 import org.springframework.batch.core.repository.JobRestartException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,7 +26,7 @@ public class BatchController {
     private final JobLauncher jobLauncher;
     private final Job job;
 
-    @PostMapping("/importuserjob")
+    @GetMapping("/importuserjob")
     public ResponseEntity<String> importCsvToDBJob() {
 
         log.info("BatchController | importCsvToDBJob is called");

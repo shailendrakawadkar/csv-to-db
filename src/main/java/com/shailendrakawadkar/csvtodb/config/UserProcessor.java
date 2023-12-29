@@ -1,8 +1,8 @@
-package com.example.batchprocessingcsvtodatabase.config;
+package com.shailendrakawadkar.csvtodb.config;
 
-import com.example.batchprocessingcsvtodatabase.model.Gender;
-import com.example.batchprocessingcsvtodatabase.model.User;
-import com.example.batchprocessingcsvtodatabase.model.UserInput;
+import com.shailendrakawadkar.csvtodb.model.Gender;
+import com.shailendrakawadkar.csvtodb.model.User;
+import com.shailendrakawadkar.csvtodb.model.UserInput;
 import org.springframework.batch.item.ItemProcessor;
 
 import java.time.LocalDate;

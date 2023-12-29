@@ -1,4 +1,4 @@
-package com.example.batchprocessingcsvtodatabase.model;
+package com.shailendrakawadkar.csvtodb.model;
 
 public enum Gender {
     MALE,

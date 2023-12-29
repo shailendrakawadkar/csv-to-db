@@ -1,6 +1,6 @@
-package com.example.batchprocessingcsvtodatabase.listener;
+package com.shailendrakawadkar.csvtodb.listener;
 
-import com.example.batchprocessingcsvtodatabase.repository.UserRepository;
+import com.shailendrakawadkar.csvtodb.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.BatchStatus;
